@@ -33626,15 +33626,15 @@ Ext.define("Avastin.view.Main", {
                     html: '<p class="titulo">Cómo funciona Avastin®</p><br><br>',
                     maskOnOpen: true,
                     items: [{
-                            xtype: "video",
+                            xtype: "img",
                             width: "80%",
                             height: "70%",
                             centered: true,
-                            src: "resources/video/avastin.mp4",
+                            src: "resources/images/video.png",
                             listeners: {
                                 tap: function() {
 
-                                    alert: ("NO MAMAR");
+                                    //alert: ("NO");
 
                                 }
                             }
