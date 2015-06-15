@@ -33623,12 +33623,12 @@ Ext.define("Avastin.view.Main", {
                     xtype: "panel",
                     cls: "panel-container",
                     id: "video-container",
-                    html: '<p class="titulo">Cómooo funciona Avastin®</p><br><br><video id="video_2a" style="position: absolute; left: 0px; top: 70px; width: 900px; display:none;" controls preload="none"><source src="resources/video/conductual.mp4" type="video/mp4"><source src="resources/video/conductual.webm" type="video/webm">Imposible de reproducir, tu navegador no  soporta este formato.</video>',
+                    html: '<p class="titulo">Cómooo funciona Avastin®</p><br><br><video style="position: absolute; left: 0px; top: 70px; width: 900px" controls><source src="resources/video/conductual.mp4" type="video/mp4"><source src="resources/video/conductual.webm" type="video/webm">Imposible de reproducir, tu navegador no  soporta este formato.</video>',
                     maskOnOpen: true,
                     items: [{
                             xtype: "img",
-                            width: "80%",
-                            height: "70%",
+                            width: "10%",
+                            height: "10%",
                             centered: true,
                             src: "resources/images/video.png",
                             listeners: {
