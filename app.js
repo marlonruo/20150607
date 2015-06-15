@@ -33623,7 +33623,7 @@ Ext.define("Avastin.view.Main", {
                     xtype: "panel",
                     cls: "panel-container",
                     id: "video-container",
-                    html: '<p class="titulo">Cómo funciona Avastin®</p><br><br>',
+                    html: '<p class="titulo">Cómooo funciona Avastin®</p><br><br>',
                     maskOnOpen: true,
                     items: [{
                             xtype: "img",
@@ -33633,7 +33633,7 @@ Ext.define("Avastin.view.Main", {
                             src: "resources/images/video.png",
                             listeners: {
                                 tap: function() {
-
+									setupCordovaMediaPlayer();initMediaPlayerForVideo("VIDEO: MOA AVASTIN","resources/video/conductual.webm","resources/images/video.png","Funcionamiento de Avastin")
                                     //alert: ("NO");
 
                                 }
