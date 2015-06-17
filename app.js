@@ -33623,7 +33623,7 @@ Ext.define("Avastin.view.Main", {
                     xtype: "panel",
                     cls: "panel-container",
                     id: "video-container",
-                    html: '<p class="titulo">Cómoo funciona Avastin®</p><br><br><video width="90%" controls webkit-playsinline><source src="http://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4"></video>',
+                    html: '<p class="titulo">Cómo funciona Avastin®</p><br><br><video width="90%" controls webkit-playsinline><source src="http://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4"></video>',
                     maskOnOpen: true,
                     
                 }, {

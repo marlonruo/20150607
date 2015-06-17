@@ -18,24 +18,11 @@
         <!--<content src="index.html" />
         <access origin="*" />-->
 
-
-
         <gap:platform name="android" />
-       
 
-
-
-        
         <preference name="phonegap-version" value="3.5.0" />
         <preference name="orientation" value="portrait" />
         <preference name="fullscreen" value="true" />
-
-
-        
-
-    	
-    	
-
 
 
          <icon src="iconos/icon.png" />	
