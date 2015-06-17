@@ -33623,7 +33623,6 @@ Ext.define("Avastin.view.Main", {
                     xtype: "panel",
                     cls: "panel-container",
                     id: "video-container",
-                    html: '<p class="titulo">Cómoaaaaaa funciona Avastin®</p><br><br><video style="position: absolute; left: 0px; top: 70px; width: 900px" controls><source src="resources/video/conductual.mp4" type="video/mp4"><source src="resources/video/conductual.webm" type="video/webm">Imposible de reproducir, tu navegador no  soporta este formato.</video>',
                     maskOnOpen: true,
                     
                 }, {

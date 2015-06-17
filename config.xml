@@ -22,7 +22,7 @@
 
         <gap:platform name="android" />
        
-<gap:plugin name="com.dawsonloudon.videoplayer" version="1.0.0" />
+
 
 
         
@@ -47,24 +47,10 @@
               <icon src="iconos/android/hdpi.png" density="hdpi" />
               <icon src="iconos/android/xhdpi.png" density="xhdpi" />
         </platform>
-
-
-
-
-
-    	
-    	
-    
-
-
-
-
-    	
-    	
-    	
-    	
-
-
-
+		
+	<gap:plugin name="org.apache.cordova.media" />	
+ 
+	<gap:plugin name="com.dawsonloudon.videoplayer" version="1.0.0" />
+	<access origin="*" />
 
     </widget>
